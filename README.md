@@ -7,7 +7,8 @@ This is submitted as pretest for LFX Mentorship.
 
 ## Running the repository
 1. Clone the repository using ```git clone https://github.com/Wck-iipi/LFX_OpenCV```
-2. Run the code with `pkg-config --libs --cflags opencv4`.
+2. Go inside the downloaded directory using `cd BreadcrumbsLFX_OpenCV`
+3. Run the code with `pkg-config --libs --cflags opencv4`.
 The final command would look something like:
 
 ```g++ main.cpp `pkg-config --libs --cflags opencv4` -o main && ./main "Background.jpg"```
